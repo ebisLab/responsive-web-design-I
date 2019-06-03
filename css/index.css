@@ -226,15 +226,82 @@ button {
  /* Mobile Styles */
  @media only screen and (max-width: 500px) {
     .container {
-      background-color: #F09A9D; /* Red */
+      width: 100%;
     }
     
-    
-    nav li{
-        float:none;
-      display: flex;
-    padding: 10px;
+    .top-row {
+      display: block;
+  }
+
+  .bottom-row {
+    display: block;
+}
+  
+    .menu{
+      display: grid;
+  
     }
+    .inner2 {
+      max-width: 100%;
+      padding: 10px
+  }
+
+  .inner1 {
+    padding: 10px 0;
+
+}
+
+    header{
+      display: block;
+      align-items: center;
+  }
+  
+  .logo-container{
+    display: block;
+  }
+  .logo-container-tablet
+  {
+    display: contents;
+  }
+
+  .logo-container
+  {
+    display: none;
+  }
+
+  .inner1{
+      max-width: none;
+      width: none;
+  }
+
+  .hero{
+      display: inherit;
+      padding-bottom: 30px;
+  }
+  nav{
+      text-align: center;
+      display: inherit; 
+
+  }
+
+  .logo-container{
+    border-bottom: 2px solid #c9c9c9;
+  }
+
+  .menu a{
+    padding: 20px;
+    border-bottom: 2px solid #c9c9c9;
+  }
+
+
+
+  .container{
+      width: 90%;
+  }
+
+  .hero-img{
+      display: none;
+  }
   }
   
   /* Tablet Styles */
@@ -295,5 +362,6 @@ button {
     .container{
         max-width: 900px;
     }
+
     
   }
