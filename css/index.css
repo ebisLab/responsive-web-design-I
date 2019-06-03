@@ -78,7 +78,7 @@ h1 {
 
 .container {
   margin: 0 auto;
-  width: 900px;
+ width: 100%;
 }
 
 nav {
@@ -144,6 +144,7 @@ nav {
 
 .middle-img {
   margin: 40px 0;
+  width: 100%;
 }
 
 .bottom-row {
@@ -217,3 +218,64 @@ button {
 .services-bottom-row p {
 	padding-bottom: 20px;
 }
+
+ /* Mobile Styles */
+ @media only screen and (max-width: 500px) {
+    .container {
+      background-color: #F09A9D; /* Red */
+    }
+    
+    
+    nav li{
+        float:none;
+      display: flex;
+    padding: 10px;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 501px) and (max-width: 960px) {
+
+    header{
+        display: block;
+        align-items: center;
+    }
+    
+    .logo-container{
+      display: block;
+    }
+
+    .inner1{
+        max-width: none;
+        width: none;
+    }
+
+    .hero{
+        display: inherit;
+        padding-bottom: 50px;
+    }
+    nav{
+        text-align: center;
+        display: inherit; 
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    
+    
+    .container{
+        max-width: 900px;
+    }
+    
+  }
