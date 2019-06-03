@@ -96,6 +96,10 @@ nav {
   padding-right: 40px;
 }
 
+.logo-container-tablet{
+  display: none;
+}
+
 .hero {
   display: flex;
   margin: 0 auto;
@@ -244,6 +248,15 @@ button {
     .logo-container{
       display: block;
     }
+    .logo-container-tablet
+    {
+      display: contents;
+    }
+
+    .logo-container
+    {
+      display: none;
+    }
 
     .inner1{
         max-width: none;
@@ -257,6 +270,11 @@ button {
     nav{
         text-align: center;
         display: inherit; 
+
+    }
+
+    .menu{
+      padding: 30px 50px 30px 30px;
     }
 
     .container{
